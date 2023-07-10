@@ -25,7 +25,7 @@ Run `just` to list all available recipes or `just recipe-name` to execute one of
 List all available recipes.
 - `amd-p-state-enable`, `amd-p-state-disable`  
 Enable or disable passive mode in AMD P-State CPU Performance Scaling Driver.  
-Requires root.  
+Requires root privileges.  
 Required dependencies: grubby (`sudo dnf install grubby`).
 - `amd-p-state-test`  
 Show CPU cores frequencies.
