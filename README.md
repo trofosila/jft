@@ -1,4 +1,4 @@
-# just-fedora-things
+# Just Fedora Things
 Offers [just](https://github.com/casey/just#just) recipes to enhance Fedora's accessibility for beginners.
 
 ## Install the dependencies
@@ -8,7 +8,7 @@ sudo dnf install just
 
 ## Install the recipes
 ```
-curl -s "https://raw.githubusercontent.com/trofosila/just-fedora-things/master/create-justfile.sh" | sh
+curl -s https://raw.githubusercontent.com/trofosila/jft/master/create-justfile.sh | sh
 ```
 
 ## What the script does
