@@ -6,7 +6,7 @@ Offers [just](https://github.com/casey/just#just) recipes to enhance Fedora's ac
 sudo dnf install curl just
 ```
 
-## Install the recipes
+## Install (or update) the recipes
 ```
 curl -s https://raw.githubusercontent.com/trofosila/jft/master/create-justfile.sh | sh
 ```
@@ -19,3 +19,7 @@ cat ~/.justfile
 
 ## How to use the script
 Run `just` to list all available recipes or `just recipe-name` to execute one of them.
+
+## Available recipes
+- `default`  
+List all available recipes.
