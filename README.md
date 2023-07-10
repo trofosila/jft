@@ -1,5 +1,5 @@
 # Just Fedora Things
-Offers [just](https://github.com/casey/just#just) recipes to enhance Fedora's accessibility for beginners.
+Offers [just](https://github.com/casey/just#just) recipes to ease Fedora's initial setup.
 
 ## Install the dependencies
 ```
