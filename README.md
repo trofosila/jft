@@ -3,7 +3,7 @@ Offers [just](https://github.com/casey/just#just) recipes to enhance Fedora's ac
 
 ## Install the dependencies
 ```
-sudo dnf install just
+sudo dnf install curl just
 ```
 
 ## Install the recipes
@@ -11,7 +11,7 @@ sudo dnf install just
 curl -s https://raw.githubusercontent.com/trofosila/jft/master/create-justfile.sh | sh
 ```
 
-## What the script does
+## What the [script](https://raw.githubusercontent.com/trofosila/jft/master/create-justfile.sh) does
 It only creates a `.justfile` in your home directory. You can inspect the content of the file with:
 ```
 cat ~/.justfile
