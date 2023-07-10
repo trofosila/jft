@@ -29,3 +29,6 @@ Requires root privileges.
 Required dependencies: grubby (`sudo dnf install grubby`).
 - `amd-p-state-test`  
 Show CPU cores frequencies.
+- `wayland-fractional-scaling`  
+Enable Gnome Wayland fractional scaling.  
+*A restart might be required in order to see the new options.*

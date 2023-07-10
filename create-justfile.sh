@@ -18,4 +18,9 @@ amd-p-state-disable:
 # Show CPU cores frequencies
 amd-p-state-test:
   @watch -n1 "grep \"^[c]pu MHz\" /proc/cpuinfo"
+
+#Enable Gnome Wayland fractional scaling
+wayland-fractional-scaling:
+  gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+  @echo A restart might be required in order to see the new options.
 EOF
